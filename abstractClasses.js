@@ -9,7 +9,7 @@ class MyBook extends Book {
    *   @param price The book's price.
    **/
   // Write your constructor here
-  constructor(title, author, price) {
+  constructor(price) {
     super();
     this.price = price;
   }
